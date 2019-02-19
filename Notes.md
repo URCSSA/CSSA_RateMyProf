@@ -1,4 +1,4 @@
-Meeting 1: 
+**Meeting 1** 
 * Quick overview on JSON and DynamoDB.
 * Discussed the structure for prof info and user info database.
 * Resources: 
