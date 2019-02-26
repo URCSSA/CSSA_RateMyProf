@@ -9,7 +9,7 @@
 
 **Meeting 2** 
 * Goal for next week: 
- * Finnegan: look at DynamoDB and python sample code and implement search()
- * kk: look at how to use AWS Lambda and API Gateway
- * Maxine: convert current data (in excel) to wanted format in json
- * Wallace: use a small data file and write a test
+  * Finnegan: look at DynamoDB and python sample code and implement search()
+  * kk: look at how to use AWS Lambda and API Gateway
+  * Maxine: convert current data (in excel) to wanted format in json
+  * Wallace: use a small data file and write a test
