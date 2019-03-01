@@ -17,7 +17,7 @@
   * Maxine: convert current data (in excel) to wanted format in json
   * Wallace: use a small data file and write a test
 
-**Meeting 2** 
+**Meeting 3** 
 * Goal for next week: 
   * Finnegan: Document codes for db operations and work on user validation
   * Jojo: set up CloudFormation template 
