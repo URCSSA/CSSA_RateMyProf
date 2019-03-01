@@ -12,6 +12,7 @@
   * Finnegan: look at DynamoDB and python sample code and implement search()
   * Jojo: look at how to use AWS Lambda and API Gateway
   
-     -[AWS Tools overview](https://docs.google.com/presentation/d/1szOpo6bvL1Q2cBMOJWTefqyIh8H9afO6o_-4gA--0K4/edit?usp=sharing)(created by jojo)
+     * [AWS Tools overview](https://docs.google.com/presentation/d/1szOpo6bvL1Q2cBMOJWTefqyIh8H9afO6o_-4gA--0K4/edit?usp=sharing)(created by jojo)
+     * [Application structure overview](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
   * Maxine: convert current data (in excel) to wanted format in json
   * Wallace: use a small data file and write a test
