@@ -16,3 +16,11 @@
      * [Application structure overview](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
   * Maxine: convert current data (in excel) to wanted format in json
   * Wallace: use a small data file and write a test
+
+**Meeting 2** 
+* Goal for next week: 
+  * Finnegan: Document codes for db operations and work on user validation
+  * Jojo: set up CloudFormation template 
+    
+    * [Application structure overview](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
+  * Maxine and Jojo: automate the process of converting current excel file to formatted json file
