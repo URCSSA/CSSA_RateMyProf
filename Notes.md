@@ -20,6 +20,7 @@
 **Meeting 3** 
 * Goal for next week: 
   * Finnegan: Document codes for db operations and work on user validation
+    * [Build Apps with Serverless and React on AWS](https://serverless-stack.com/#table-of-contents)
   * Jojo: set up CloudFormation template 
     
     * [Application structure overview](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
