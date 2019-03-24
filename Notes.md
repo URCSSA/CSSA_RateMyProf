@@ -25,3 +25,10 @@
     
     * [Application structure overview](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/)
   * Maxine and Jojo: automate the process of converting current excel file to formatted json file
+  
+**Meeting 4**
+* Goal for next week:
+  * Finnegan: user validation back end & front end
+  * Jojo: set up application structure 
+  * Maxine: JSON files output ready
+  * Wallace: set up application structure 
