@@ -32,3 +32,9 @@
   * Jojo: set up application structure 
   * Maxine: JSON files output ready
   * Wallace: set up application structure 
+  
+**Meeting 5**
+* Goal for next week:
+  * Finnegan: user validation back end & front end
+  * Maxine: JSON files output ready
+  * Wallace: set up application structure 
