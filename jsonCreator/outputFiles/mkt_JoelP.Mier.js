@@ -1,0 +1,9 @@
+var review = [{
+  "approvedTime" : "null",
+  "student" : "null",
+  "ad" : "null",
+  "course" : "MKT 320 / MKT 326",
+  "review" : "take他我觉得不会后悔，虽然整个课程不算很简单，但他真的是个特别有趣的人，而且超愿意跟你聊天的。他的课就比较applicable，group project有很多task要做，然后很麻烦，可能一学期你跟你的group要meet 10+次，然后要写大概20+页的essay／paper，但是真的有收获。考试不算难吧，一般90+没啥问题。我觉得不是水a，但水a－吧。",
+  "difficulty" : "3",
+  "workload" : "4"
+}];
