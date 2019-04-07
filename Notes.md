@@ -41,4 +41,4 @@
 
 **Meeting 5**
 * Goal for next week:
- * Wallace: Test/run the aws lambda, figure out the API gateway and try to test at website demo
+  * Wallace: Test/run the aws lambda, figure out the API gateway and try to test at website demo
