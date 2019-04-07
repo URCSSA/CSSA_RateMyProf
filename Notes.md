@@ -38,3 +38,7 @@
   * Finnegan: user validation back end & front end
   * Maxine: JSON files output ready
   * Wallace: set up application structure 
+
+**Meeting 5**
+* Goal for next week:
+ * Wallace: Test/run the aws lambda, figure out the API gateway and try to test at website demo
