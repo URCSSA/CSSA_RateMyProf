@@ -39,6 +39,12 @@
   * Maxine: JSON files output ready
   * Wallace: set up application structure 
 
-**Meeting 5**
+**Meeting 6**
 * Goal for next week:
   * Wallace: Test/run the aws lambda, figure out the API gateway and try to test at website demo
+  
+**Meeting 7**
+* Goal for next week:
+  * Finnegan: Divide up backend work
+    * [aws-python-rest-api-with-dynamodb example](https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-dynamodb)
+    * [Build a Python REST API with Serverless, Lambda, and DynamoDB](https://serverless.com/blog/flask-python-rest-api-serverless-lambda-dynamodb/)
