@@ -1,0 +1,3 @@
+[submodule "aws-amplify-quick-notes"]
+	path = aws-amplify-quick-notes
+	url = https://github.com/HanglinZhou/aws-amplify-quick-notes.git

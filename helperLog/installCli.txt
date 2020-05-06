@@ -1,0 +1,198 @@
+hlz-MacBook-Pro:CSSA_RateMyProf apple$ sudo npm install -g @aws-amplify/cli
+Password:
+npm WARN deprecated buffer@4.9.1: This version of 'buffer' is out-of-date. You must update to v4.9.2 or newer
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+/usr/local/bin/amplify -> /usr/local/lib/node_modules/@aws-amplify/cli/bin/amplify
+
+> core-js@3.6.5 postinstall /usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-graphql-types-generator/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@2.6.11 postinstall /usr/local/lib/node_modules/@aws-amplify/cli/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
+> https://opencollective.com/core-js 
+> https://www.patreon.com/zloirock 
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> ejs@3.1.2 postinstall /usr/local/lib/node_modules/@aws-amplify/cli/node_modules/ejs
+> node --harmony ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+
+> @aws-amplify/cli@4.18.1 postinstall /usr/local/lib/node_modules/@aws-amplify/cli
+> node scripts/post-install.js
+
+
+
+----------------------------------------
+Successfully installed the Amplify CLI
+----------------------------------------
+
+
+JavaScript Getting Started - https://aws-amplify.github.io/docs/js/start
+
+
+Android Getting Started - https://aws-amplify.github.io/docs/android/start
+
+
+iOS Getting Started - https://aws-amplify.github.io/docs/ios/start
+
+
+npm WARN inquirer-autocomplete-prompt@1.0.2 requires a peer of inquirer@^5.0.0 || ^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN ws@7.2.5 requires a peer of bufferutil@^4.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN ws@7.2.5 requires a peer of utf-8-validate@^5.0.2 but none is installed. You must install peer dependencies yourself.
+
++ @aws-amplify/cli@4.18.1
+added 1034 packages from 707 contributors in 63.935s
+
+
+   ╭────────────────────────────────────────────────────────────────╮
+   │                                                                │
+   │       New minor version of npm available! 6.9.0 → 6.14.5       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v6.14.5   │
+   │               Run npm install -g npm to update!                │
+   │                                                                │
+   ╰────────────────────────────────────────────────────────────────╯
+
+hlz-MacBook-Pro:CSSA_RateMyProf apple$ amplify configure
+Scanning for plugins...
+Plugin scan successful
+Follow these steps to set up access to your AWS account:
+
+Sign in to your AWS administrator account:
+https://console.aws.amazon.com/
+Press Enter to continue
+urcssa
+Specify the AWS Region
+? region:  us-east-1
+Specify the username of the new IAM user:
+? user name:  amplify-LJuji
+Complete the user creation using the AWS console
+https://console.aws.amazon.com/iam/home?region=undefined#/users$new?step=final&accessKey&userNames=amplify-LJuji&permissionType=policies&policies=arn:aws:iam::aws:policy%2FAdministratorAccess
+Press Enter to continue
+
+Enter the access key of the newly created user:
+? accessKeyId:  ********************
+? secretAccessKey:  ****************************************
+This would update/create the AWS Profile in your local machine
+? Profile Name:  default
+
+Successfully set up the new user.
+hlz-MacBook-Pro:CSSA_RateMyProf apple$ ls
+LICENSE		Notes.md	README.md	jsonCreator	src
+hlz-MacBook-Pro:CSSA_RateMyProf apple$ ls jsonCreator/
+JsonCreator.class	JsonCreator.java	ProfClassReviews	README			outputFiles
+hlz-MacBook-Pro:CSSA_RateMyProf apple$ amplify init
+Note: It is recommended to run this command from the root of your app directory
+? Enter a name for the project CSSARateMyProf
+? Enter a name for the environment dev
+? Choose your default editor: IntelliJ IDEA
+? Choose the type of app that you're building javascript
+Please tell us about your project
+? What javascript framework are you using react
+? Source Directory Path:  src
+? Distribution Directory Path: build
+? Build Command:  npm run-script build
+? Start Command: npm run-script start
+Using default provider  awscloudformation
+
+
+For more information on AWS Profiles, see:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
+
+? Do you want to use an AWS profile? Yes
+? Please choose the profile you want to use default
+Adding backend environment dev to AWS Amplify Console app: d3bz3e6iazpk9t
+⠋ Initializing project in the cloud...
+
+CREATE_IN_PROGRESS amplify-cssaratemyprof-dev-104514 AWS::CloudFormation::Stack Wed May 06 2020 10:45:17 GMT-0700 (Pacific Daylight Time) User Initiated             
+CREATE_IN_PROGRESS UnauthRole                        AWS::IAM::Role             Wed May 06 2020 10:45:21 GMT-0700 (Pacific Daylight Time)                            
+CREATE_IN_PROGRESS DeploymentBucket                  AWS::S3::Bucket            Wed May 06 2020 10:45:21 GMT-0700 (Pacific Daylight Time)                            
+CREATE_IN_PROGRESS AuthRole                          AWS::IAM::Role             Wed May 06 2020 10:45:21 GMT-0700 (Pacific Daylight Time)                            
+CREATE_IN_PROGRESS UnauthRole                        AWS::IAM::Role             Wed May 06 2020 10:45:21 GMT-0700 (Pacific Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS AuthRole                          AWS::IAM::Role             Wed May 06 2020 10:45:22 GMT-0700 (Pacific Daylight Time) Resource creation Initiated
+CREATE_IN_PROGRESS DeploymentBucket                  AWS::S3::Bucket            Wed May 06 2020 10:45:22 GMT-0700 (Pacific Daylight Time) Resource creation Initiated
+⠏ Initializing project in the cloud...
+
+CREATE_COMPLETE UnauthRole AWS::IAM::Role Wed May 06 2020 10:45:35 GMT-0700 (Pacific Daylight Time) 
+CREATE_COMPLETE AuthRole   AWS::IAM::Role Wed May 06 2020 10:45:35 GMT-0700 (Pacific Daylight Time) 
+⠹ Initializing project in the cloud...
+
+CREATE_COMPLETE DeploymentBucket AWS::S3::Bucket Wed May 06 2020 10:45:43 GMT-0700 (Pacific Daylight Time) 
+⠦ Initializing project in the cloud...
+
+CREATE_COMPLETE amplify-cssaratemyprof-dev-104514 AWS::CloudFormation::Stack Wed May 06 2020 10:45:45 GMT-0700 (Pacific Daylight Time) 
+✔ Successfully created initial AWS cloud resources for deployments.
+✔ Initialized provider successfully.
+Initialized your environment successfully.
+
+Your project has been successfully initialized and connected to the cloud!
+
+Some next steps:
+"amplify status" will show you what you've added already and if it's locally configured or deployed
+"amplify add <category>" will allow you to add features like user login or a backend API
+"amplify push" will build all your local backend resources and provision it in the cloud
+"amplify console" to open the Amplify Console and view your project status
+"amplify publish" will build all your local backend and frontend resources (if you have hosting category added) and provision it in the cloud
+
+Pro tip:
+Try "amplify add api" to create a backend API and then "amplify publish" to deploy everything
+
+hlz-MacBook-Pro:CSSA_RateMyProf apple$ amplify help
+
+
+| Category      |
+| ------------- |
+| analytics     |
+| api           |
+| auth          |
+| function      |
+| hosting       |
+| interactions  |
+| notifications |
+| predictions   |
+| storage       |
+| xr            |
+
+ █████╗ ███╗   ███╗██████╗ ██╗     ██╗███████╗██╗   ██╗    ███████╗██████╗  █████╗ ███╗   ███╗███████╗██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
+██╔══██╗████╗ ████║██╔══██╗██║     ██║██╔════╝╚██╗ ██╔╝    ██╔════╝██╔══██╗██╔══██╗████╗ ████║██╔════╝██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
+███████║██╔████╔██║██████╔╝██║     ██║█████╗   ╚████╔╝     █████╗  ██████╔╝███████║██╔████╔██║█████╗  ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
+██╔══██║██║╚██╔╝██║██╔═══╝ ██║     ██║██╔══╝    ╚██╔╝      ██╔══╝  ██╔══██╗██╔══██║██║╚██╔╝██║██╔══╝  ██║███╗██║██║   ██║██╔══██╗██╔═██╗ 
+██║  ██║██║ ╚═╝ ██║██║     ███████╗██║██║        ██║       ██║     ██║  ██║██║  ██║██║ ╚═╝ ██║███████╗╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗
+╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝╚═╝        ╚═╝       ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝ ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+                                                                                                                                         
+amplify <command> <subcommand>
+
+  init                Initializes a new project, sets up deployment resources in the cloud, and makes your project ready for Amplify.                              
+  configure           Configures the attributes of your project for amplify-cli, such as switching front-end framework and adding/removing cloud-provider plugins. 
+  push                Provisions cloud resources with the latest local developments.                                                                               
+  pull                Fetch upstream backend environment definition changes from the cloud and updates the local environment to match that definition.             
+  publish             Executes amplify push, and then builds and publishes client-side application for hosting.                                                    
+  serve               Executes amplify push, and then executes the project's start command to test run the client-side application locally.                        
+  status              Shows the state of local resources not yet pushed to the cloud (Create/Update/Delete).                                                       
+  delete              Deletes all of the resources tied to the project from the cloud.                                                                             
+  <category> add      Adds a resource for an Amplify category in your local backend                                                                                
+  <category> update   Update resource for an Amplify category in your local backend.                                                                               
+  <category> push     Provisions all cloud resources in a category with the latest local developments.                                                             
+  <category> remove   Removes a resource for an Amplify category in your local backend.                                                                            
+  <category>          Displays subcommands of the specified Amplify category.                                                                                      
+  mock                Run mock server for testing categories locally.                                                                                              
+  codegen             Generates GraphQL statements(queries, mutations and eventHandlers) and type annotations.                                                     
+  env                 Displays and manages environment related information for your Amplify project.                                                               
+  console             Opens the web console for the selected cloud resource.
