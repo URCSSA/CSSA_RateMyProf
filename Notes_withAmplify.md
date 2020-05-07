@@ -12,6 +12,7 @@
   * clean up data 
     * deside data format
     * merge multiple sheets of excel into one sheet
+
 **TODO**
 1. clean up data (complete empty field for all appropriate cells)
 2. function for new department & new course
