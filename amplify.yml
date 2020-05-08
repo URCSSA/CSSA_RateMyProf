@@ -10,10 +10,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd aws-amplify-quick-notes
         - yarn install
     build:
       commands:
+        - cd aws-amplify-quick-notes
         - yarn run build
   artifacts:
     baseDirectory: aws-amplify-quick-notes/build
