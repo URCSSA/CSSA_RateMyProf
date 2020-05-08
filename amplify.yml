@@ -1,10 +1,9 @@
 version: 0.1
 backend:
   phases:
-    prebuild:
-        - cd aws-amplify-quick-notes
     build:
       commands:
+        - cd aws-amplify-quick-notes
         - '# Execute Amplify CLI with the helper script'
         - amplifyPush --simple
 frontend:
