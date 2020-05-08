@@ -1,0 +1,25 @@
+version: 0.1
+backend:
+  phases:
+    prebuild:
+        - cd aws-amplify-quick-notes
+    build:
+      commands:
+        - '# Execute Amplify CLI with the helper script'
+        - amplifyPush --simple
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd aws-amplify-quick-notes
+        - yarn install
+    build:
+      commands:
+        - yarn run build
+  artifacts:
+    baseDirectory: aws-amplify-quick-notes/build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
