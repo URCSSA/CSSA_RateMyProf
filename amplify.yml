@@ -10,7 +10,8 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd aws-amplify-quick-notes
+        - pwd
+        - ls
         - yarn install
     build:
       commands:
